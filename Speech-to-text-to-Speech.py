@@ -52,7 +52,7 @@ while True:
             )
             # Print out results for further processing
             prompt = myPrompt.replace("{SpeechText}", SpeechText),
-            print(f"Human:{SpeechText},\n,{response.choices[0].text}")
+            print(f"Human:{SpeechText}\nAI:{response.choices[0].text}")
 
             # SPEAK IT OUT
             engine = pyttsx3.init()
