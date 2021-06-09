@@ -9,6 +9,17 @@ guy, but I think the script runs well and takes tweaks fluently.
 
 # Notes
 
+## Running the script
+
+### Installation
+
+Install the required libraries through pip, by running 'pip install -r requirements.txt' the file is in the repo
+
+## Running the script
+
+Run a terminal and navigate to the repo file and run 'python Speech-to-text-to-Speech.py' It will ask you to speak. Do so and wait a bit for it to process. Boom.
+RESULTS!
+
 ## Variables
 
 The only Variable you're probably interested in should be **'myPrompt'** and the **'{SpeechText}'** string inside of it. You can change the prompt, but definitely look at how
