@@ -1,0 +1,3 @@
+openai
+speech_recognition
+pyttsx3
