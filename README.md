@@ -11,9 +11,9 @@ guy, but I think the script runs well and takes tweaks fluently.
 
 ## Variables
 
-The only Variable you're probably interested in should be 'myPrompt' and the '{SpeechText}' string inside of it. You can change the prompt, but definitely look at how
+The only Variable you're probably interested in should be **'myPrompt'** and the **'{SpeechText}'** string inside of it. You can change the prompt, but definitely look at how
 I laid it out. The API reacts a bit differently here and I think that's due to a lack of punctuation and on top of that, some issues with new lines. So the best way
-I found for this to work was the way I got it laid out, aka 'Human:{SpeechText} \n(Newline) AI:' That way GPT-3 just picks it up from the point of interest.
+I found for this to work was the way I got it laid out, aka 'Human:{SpeechText} \nAI:' That way GPT-3 just picks it up from the point of interest.
 
 ## Some things I’d like to develop further:
 
