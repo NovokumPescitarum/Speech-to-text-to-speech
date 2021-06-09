@@ -61,6 +61,6 @@ while True:
             exit()
 
     except speech_recognition.UnknownValueError:
-
+       print("I didn't quite get you.Can you please repeat that?")
        recognizer = speech_recognition.Recognizer()
     continue
