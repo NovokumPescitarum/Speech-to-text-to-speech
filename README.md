@@ -26,6 +26,10 @@ The only Variable you're probably interested in should be **'myPrompt'** and the
 I laid it out. The API reacts a bit differently here and I think that's due to a lack of punctuation and on top of that, some issues with new lines. So the best way
 I found for this to work was the way I got it laid out, aka 'Human:{SpeechText} \nAI:' That way GPT-3 just picks it up from the point of interest.
 
+### IMPORTANT NOTE! 
+
+## This script will not run without an API key from openai.com
+
 ## Some things I’d like to develop further:
 
 1.) The speech to text system is not great at taking in commas and periods. It really misses a lot of the nuance that this AI seems to thrive on. So any recommendations on libraries are welcome.
