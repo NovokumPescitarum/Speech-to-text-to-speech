@@ -43,7 +43,7 @@ while True:
             response = openai.Completion.create(
                 engine="davinci",
                 temperature=0.9,
-                max_tokens=190,
+                max_tokens=100,
                 top_p=1,
                 prompt = str(myPrompt.replace("{SpeechText}", SpeechText)),
                 frequency_penalty=0,
