@@ -1,3 +1,8 @@
+### IMPORTANT NOTE! 
+
+## This script will not run without an API key from openai.com
+
+
 # About the Script
 
 I use three modules, openai, speech_recognition and pyttsx3. Together they work to take in text and input it into whatever GPT-3 set up you’ve got going on. 
@@ -26,9 +31,6 @@ The only Variable you're probably interested in should be **'myPrompt'** and the
 I laid it out. The API reacts a bit differently here and I think that's due to a lack of punctuation and on top of that, some issues with new lines. So the best way
 I found for this to work was the way I got it laid out, aka 'Human:{SpeechText} \nAI:' That way GPT-3 just picks it up from the point of interest.
 
-### IMPORTANT NOTE! 
-
-## This script will not run without an API key from openai.com
 
 ## Some things I’d like to develop further:
 
